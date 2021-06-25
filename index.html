@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trường Cao đẳng nghề Bách Khoa Hà nội - Hanoi Vocational College of Technology (Hactech) | Trang chủ</title>
+    <link rel="icon" href="./assets/images/icon/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/object.css">
+    <link rel="stylesheet" href="./assets/css/sub.css">
+    <link rel="stylesheet" href="./assets/css/mobile.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+</head>
+<body>
+   <header id="header">
+       <div class="header-container">
+           <div class="top-header grid wide-max">
+               <div class="top-header__inner grid">
+                   <div class="brand-box">
+                        <h1>TRƯỜNG CAO ĐẲNG NGHỀ BÁCH KHOA HÀ NỘI</h1>
+                        <h2>HANOI VOCATIONAL COLLEGE OF TECHNOLOGY</h2>
+                    </div>
+                    <div class="right-box">
+                        <div class="search-box">
+                            <div class="sb-wrap">
+                                <input type="checkbox" id="btn-search-box" checked  hidden>
+                                <input type="text" class= "" placeholder=" tìm kiếm..." name="" id="search-box">
+                            </div>
+                            <label for="btn-search-box">
+                                <i class="fas fa-search "></i>
+                            </label>
+                        </div>
+                      
+                        <div class="lang-box">
+                            <a class="active" href="">VI</a>
+                            <a class="" href="">EN</a>
+                        </div>
+                        <script>
+                             // Add active class to the current button (highlight it)
+           $(".lang-box a").click(function (e) {
+            console.log('tab click')
+            e.preventDefault();
+            var tab_box = $(this).parent();
+
+            // Remove active
+            tab_box.find('a').removeClass('active');
+
+            // Add active
+            $(this).addClass('active');
+        });
+                        </script>
+                        <ul class="social-list">
+                            <li class="social-item">
+                                <a href="" class="social-link">
+                                    <i class="far fa-envelope"></i>
+                                </a>
+                            </li>
+
+                            <li class="social-item">
+                                <a href="" class="social-link">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+
+                            <li class="social-item">
+                                <a href="" class="social-link">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+        </div>
+        
+    </div>
+    <div class="main-nav grid wide-max">
+        <div class="main-nav__inner grid">
+
+                    <div class="logo-box">
+                        <a href="">
+
+                            <img src="./assets/images/themes/logo.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="nav-list">
+                        <div class="row m-10px">
+
+                            <div class="col p-10">
+                                <div class="nav-item">
+                             <a href="" class="nav-link active">TRANG CHỦ</a>   
+                             </div>
+                            </div>
+
+                            <div class="col p-10">
+                                <div class="nav-item">
+                                    <a href="" class="nav-link">GIỚI THIỆU</a>   
+                                    <div class="drop-down">
+                                        <ul class="sub-nav">
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Giới thiệu chung
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Sứ mạng, tầm nhìn và mục tiêu phát triển
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Cơ sở vật chất
+                                                </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col p-10">
+                                <div class="nav-item">
+                                    <a href="" class="nav-link">CƠ CẤU TỔ CHỨC</a>   
+                                    <div class="drop-down">
+                                        <ul class="sub-nav">
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Sơ đồ bộ máy tổ chức
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Lãnh đạo trường
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Phòng ban
+                                                </a>
+                                                </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col p-10">
+                                <div class="nav-item">
+                                    <a href="" class="nav-link">ĐÀO TẠO</a>   
+                                    <div class="drop-down">
+                                        <ul class="sub-nav">
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Sơ đồ bộ máy tổ chức
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Lãnh đạo trường
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Phòng ban
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Các khoa
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Tổ chức đoàn thể
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Cổng thông tin cán bộ
+                                                </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col p-10">
+                                <div class="nav-item">
+                                    <a href="" class="nav-link">TUYỂN SINH</a>   
+                                    <div class="drop-down">
+                                        <ul class="sub-nav">
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Chương trình đào tạo
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Quy chế đào tạo
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Liên thông lên đại học
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Kế hoạch học tập
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Thời khóa biểu
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Lịch thi học kỳ
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Tài liệu học tập
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Phòng đọc
+                                                </a>
+                                                </li>
+                                            <li class="sub-nav-item">
+                                                <a href="" class="link">
+                                                    Kết quả học tập
+                                                </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col p-10">
+                                <div class="nav-item">
+                                    <a href="" class="nav-link">LIÊN HỆ</a>   
+                                </div>
+                            </div>
+
+                            <div class="col p-10">
+                             <a href="" class="btn bg-main-red">CỔNG TT SINH VIÊN</a>   
+                            </div>
+
+                            <div class="col p-10">
+                             <a href="" class="btn bg-blue">CỔNG TT CÁN BỘ</a>   
+                            </div>
+
+                    </div>
+                    <script>
+                        // Add active class to the current button (highlight it)
+                        $(".drop-down .sub-nav .sub-nav-item a").click(function (e) {
+                            console.log('tab click')
+                            e.preventDefault();
+                            var tab_box = $(this).parent().parent().parent().parent().parent().parent();
+                            var tab_second = $(this).parent().parent().parent().parent();
+                            
+                            // Remove active
+                            tab_box.find('.col .nav-item .drop-down .sub-nav .sub-nav-item .link').removeClass('active');
+                            tab_box.find('.col .nav-item .nav-link').removeClass('active');
+                            // Add active
+                            $(this).addClass('active');
+                            tab_second.find('.nav-link').addClass('active');
+                        });
+                        </script>
+                        </div>
+    </div>
+    </div>
+    </div>
+       <!-- slider main -->
+   </header> 
+
+   <main id="main">
+       <div class="main-container ">
+       <div class="slider-main grid wide-max">
+           <!-- slider -->
+           <div class="slider-box">
+               <div class="slider-item">
+                   <div class="img-box">
+                       <img src="./assets/images/slider_main/slide1.png" alt="">
+                    </div>
+                <div class="slide__text-box">
+                    <h3>TUYỂN SINH KHÓA 13 HỆ CAO ĐẲNG</h3>
+                    <p>Thông báo tuyển sinh</p>
+                </div>
+               </div>
+
+               <div class="slider-item">
+                   <div class="img-box">
+                       <img src="./assets/images/slider_main/slide2.png" alt="">
+                    </div>
+                <div class="slide__text-box">
+                    <h3>HACTECH</h3>
+                    <p>Đơn vị đạt chuẩn quốc tế ISO 29990 đầu tiên tại Châu Á</p>
+                </div>
+               </div>
+
+               <div class="slider-item">
+                   <div class="img-box">
+                       <img src="./assets/images/slider_main/slide3.png" alt="">
+                    </div>
+                <div class="slide__text-box">
+                    <h3>TUYỂN SINH KHÓA 13 HỆ CAO ĐẲNG</h3>
+                    <p>Thông báo tuyển sinh</p>
+                </div>
+               </div>
+
+               <div class="slider-item">
+                   <div class="img-box">
+                       <img src="./assets/images/slider_main/slide4.png" alt="">
+                    </div>
+                <div class="slide__text-box">
+                    <h3>TUYỂN SINH KHÓA 13 HỆ CAO ĐẲNG</h3>
+                    <p>Tư vấn tuyển sinh</p>
+                </div>
+               </div>
+           </div>
+           <!-- end slider -->
+       </div>
+       <script>
+           $('.slider-box').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000
+});
+       </script> 
+    <!-- category main -->
+           <div class="category-main">
+               <div class="grid wide">
+                   <div class="row">
+                       <div class="col l-2-4">
+                           <a href="" class="category-item">
+                               <img src="./assets/images/themes/cate1.svg" class="cate-img" alt="">
+                               <div class="title">Ngành nghề đào tạo</div>
+                           </a>
+                       </div>
+
+                       <div class="col l-2-4">
+                           <a href="" class="category-item">
+                               <img src="./assets/images/themes/cate2.svg" class="cate-img" alt="">
+                               <div class="title">Lịch công tác</div>
+                           </a>
+                       </div>
+
+                       <div class="col l-2-4">
+                           <a href="" class="category-item">
+                               <img src="./assets/images/themes/cate3.svg" class="cate-img" alt="">
+                               <div class="title">Hợp tác doanh nghiệp</div>
+                           </a>
+                       </div>
+                       
+                       <div class="col l-2-4">
+                           <a href="" class="category-item">
+                               <img src="./assets/images/themes/cate4.svg" class="cate-img" alt="">
+                               <div class="title">Đào tạo quốc tế</div>
+                           </a>
+                       </div>
+
+                       <div class="col l-2-4">
+                           <a href="" class="category-item">
+                               <img src="./assets/images/themes/cate5.svg" class="cate-img" alt="">
+                               <div class="title">Việc làm sinh viên</div>
+                           </a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <!-- over-view -->
+           <div class="over-view">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-6">
+                        <img class="over-view__img" src="./assets/images/themes/img-school.svg" alt="">
+                    </div>
+                    <div class="col l-6">
+                        <div class="over-view__content">
+                            <h4 class="tab-heading">Tổng quan</h4>
+                            <p class="heading" >Trường cao đẳng nghề Bách Khoa Hà Nội</p>
+                            <p class="content">Trường Cao đẳng nghề Bách Khoa Hà Nội (HACTECH) trực thuộc Đại học Bách Khoa Hà Nội được thành lập theo quyết định số 526/QĐ.BLĐTBXH ngày 23 tháng 4 năm 2009 của Bộ trưởng Bộ LĐTBXH. Trường Cao đẳng nghề Bách Khoa Hà nội là đơn vị đào tạo có uy tín và chất lượng trong hệ thống đào tạo quốc gia. Hiện tại, Trường có hơn 200 cán bộ, giảng viên trong đó có 150 giảng viên cơ hữu và thỉnh giảng có trình độ PGS, Tiến sĩ, Thạc sỹ, KS, CN, Thợ bậc cao. Quy mô đào tạo của Trường hiện tại là trên 5.000 sinh viên hệ Cao đẳng nghề chính quy với 17 nghề đào tạo thuộc 5 Khoa chuyên môn.  </p>
+                             <a href="" class="more-btn btn bg-main-red">Tìm hiểu thêm</a>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+           <!-- news -->
+           <div class="new">
+               <div class="grid wide">
+                   <div class="row">
+                       <div class="col l-6">
+                           <div class="active">
+                               <div class="heading-bar">
+                                <h3 class="title">Tin hoạt động</h3>
+                                <a href="" class="link">Xem tất cả</a>
+                               </div>
+
+                               <a class="active-post post" href="">
+                                   <div class="grid">
+                                       <div class="row m-10px">
+                                           <div class="col p-10 l-6">
+                                            <img src="./assets/images/themes/covid 34 3.jpg" alt="" class="post-img">
+                                           </div>
+                                           <div class="col p-10 l-6">
+                                            <div class="post-content">
+                                                <h4 class="post-heading">
+                                            HACTECH: Tăng cường kiểm soát tối đa, phòng chống dịch Covid-19
+                                        </h4>
+                                        <p class="post-text">
+                                            Kiểm soát chặt chẽ người ra vào, nghiêm túc thực hiện biện pháp 5K là những yêu cầu mà Ban chỉ đạo phòng chống dịch bệnh Covid-19 Trường Cao đẳng nghề Bách khoa Hà Nội (HACTECH) đưa ra trong buổi họp sáng 10/5.
+                                        </p>
+                                            </div>
+                                            </div>
+                                       </div>
+                                   </div>
+                                </a>
+                                <ul class="short-new-list">
+                                    <li><a href="" class="short-new">
+                                        <p class="short-new-content">Học online: Thầy cô linh hoạt, sinh viên tích cực chủ động </p>
+                                    </a>
+                                    </li>
+
+                                    <li><a href="" class="short-new">
+                                        <p class="short-new-content">Trường CĐN BKHN tổ chức học trực tuyến cho sinh viên khóa 11, 12: Khẩn trương tổ chức học trực tuyến, không để sinh viên lãng phí thời gian, lỡ mất kiến thức</p>
+                                    </a>
+                                    </li>
+
+                                    <li><a href="" class="short-new">
+                                        <p class="short-new-content">Học bổng FiVe học kỳ 2 năm học 2021 – Phần thưởng giá trị dành cho những sinh viên xuất sắc</p>
+                                    </a>
+                                    </li>
+
+                                    <li><a href="" class="short-new">
+                                        <p class="short-new-content">Lịch học lại các môn kỳ 1 năm học 2020-2021</p>
+                                    </a>
+                                    </li>
+                                </ul>
+                           </div>
+                       </div>
+                       <div class="col l-6">
+                           <div class="event">
+                            <!-- heading -->
+                               <div class="heading-bar">
+                                <h3 class="title">Tin tức sự kiện</h3>
+                                <a href="" class="link">Xem tất cả</a>
+                               </div>
+                               <!-- light-post list -->
+                               <div class="light-post-list">
+                                   <div class="light-post">
+                                       <h3 class="light-post__time-box">20/06</h3>
+                                       <a href="" class="light-post__heading">
+                                        Lịch công tác năm học 2020– 2021 Tuần 40 (21/6/2021–27/6/2021)
+                                        </a>
+                                   </div>
+                                   <div class="light-post">
+                                       <h3 class="light-post__time-box">23/06</h3>
+                                       <a href="" class="light-post__heading">
+                                        Thông báo về những việc cần lưu ý khi nộp hồ sơ tuyển sinh và khi nhận kết quả trúng tuyển hệ Cao đẳng khóa 13 năm 2021</a>
+                                                                           </div>
+                                   <div class="light-post">
+                                       <h3 class="light-post__time-box">17/06</h3>
+                                       <a href="" class="light-post__heading">
+                                        Thông báo về phương thức kế hoạch tuyển sinh hệ Cao đẳng Khóa 13 năm học 2021
+                                        </a>
+                                   </div>
+                                   <div class="light-post">
+                                       <h3 class="light-post__time-box">17/06</h3>
+                                       <a href="" class="light-post__heading">
+                                        Phòng Đào tạo & QLSV thông báo: Trả bằng tốt nghiệp cho sinh viên các khóa tốt nghiệp đợt tháng 3 năm học 2020-2021
+                                        </a>
+                                   </div>
+                               </div>
+                               <!-- news slide -->
+                               <div class="news-slide">
+                                <ul class="short-new-list">
+                                    <li><a href="" class="short-new">
+                                        <p class="short-new-content">Học online: Thầy cô linh hoạt, sinh viên tích cực chủ động </p>
+                                    </a>
+                                    </li>
+
+                                    <li><a href="" class="short-new">
+                                        <p class="short-new-content">Trường CĐN BKHN tổ chức học trực tuyến cho sinh viên khóa 11, 12: Khẩn trương tổ chức học trực tuyến, không để sinh viên lãng phí thời gian, lỡ mất kiến thức</p>
+                                    </a>
+                                    </li>
+
+                                    <li><a href="" class="short-new">
+                                        <p class="short-new-content">Học bổng FiVe học kỳ 2 năm học 2021 – Phần thưởng giá trị dành cho những sinh viên xuất sắc</p>
+                                    </a>
+                                    </li>
+
+                                    <li><a href="" class="short-new">
+                                        <p class="short-new-content">Lịch học lại các môn kỳ 1 năm học 2020-2021</p>
+                                    </a>
+                                    </li>
+                                </ul>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <!-- admission -->
+           <div class="admission">
+               <div class="grid wide-max">
+                  <div class="grid wide">
+                      <div class="row">
+                          <div class="col l-8">
+                              <div class="admission-item">
+                                  <h3 class="heading">
+                                      Tuyển sinh hệ Cao đẳng khóa 13 năm 2021
+                                </h3>
+                                  <a href="" class="btn">Xem thêm</a>
+                              </div>
+                              <div class="admission-item">
+                                  <h3 class="heading">
+                                      Tuyển sinh hệ Kỹ sư thực hành Quốc tế theo tiêu chuẩn CHLB Đức - FiVe khóa 5 năm 2021
+                                  </h3>
+                                  <a href="" class="btn">Xem thêm</a>
+                                </div>
+                          </div>
+                          <div class="col l-4">
+                              <div class="img-box">
+                                  <img src="./assets/images/themes/T123S.png" alt="">
+                              </div>
+                          </div>
+                      </div>
+
+                  </div> 
+               </div>
+           </div>
+           <!-- media -->
+           <div class="media">
+               <div class="grid wide">
+                   <h3 class="topic-header">
+                       Thư viện ảnh
+                   </h3>
+                   <div class="media-slider">
+                       <div class="row">
+                           <div class="col l-12">
+                               <a href="" class="media-item">
+                                   <img src="./assets/images/media/media1.jpg" alt="">
+                                </a>
+                            </div>
+                        <div class="col l-12">
+                            <a href="" class="media-item">
+                                <img src="./assets/images/media/media6.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col l-12">
+                            <a href="" class="media-item">
+                                <img src="./assets/images/media/media3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col l-12">
+                            <a href="" class="media-item">
+                                <img src="./assets/images/media/media4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col l-12">
+                            <a href="" class="media-item">
+                                <img src="./assets/images/media/media5.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col l-12">
+                            <a href="" class="media-item">
+                                <img src="./assets/images/media/media6.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col l-12">
+                            <a href="" class="media-item">
+                                <img src="./assets/images/media/media1.jpg" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                       </div>
+<script>
+    $('.media-slider .row').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>
+                    </div>
+                    </div>
+        </div>
+   </main>
+   
+   <footer id="footer">
+   <div class="footer-container">
+       <div class="grid wide-max">
+
+           <div class="grid wide footer-last-info">
+           <div class="row">
+               <div class="col l-4">
+                   <img src="./assets/images/themes/logo.jpg" alt="" class="footer-logo">
+                   <div class="info-line">
+                       <i class="fas fa-map-marker-alt"></i>
+                       <p>92A - Lê Thanh Nghị – Hai Bà Trưng – Hà Nội</p>
+                   </div>
+                   <div class="info-line">
+                       <i class="fas fa-phone-alt"></i>
+                       <p>024.36230209 (Tổng đài) - 039.3006008 (Hotline)</p>
+                   </div>
+                   <div class="info-line">
+                       <i class="far fa-envelope"></i>
+                       <p>contact@hactech.edu.vn</p>
+                   </div>
+                   <div class="info-line">
+                       <i class="fas fa-globe"></i>
+                       <p>www.hactech.edu.vn</p>
+                   </div>
+                   <div class="info-line">
+                       <i class="fas fa-clock"></i>
+                       <p>8:00 - 17h:00 ( Từ thứ 2 đến thứ 6 )</p>
+                   </div>
+               </div>
+               <div class="col l-4">
+                   <h3 class="heading">Theo dõi chúng tôi</h3>
+                   <div class="face-box">
+
+                       <div class="fb-page" data-href="https://www.facebook.com/cdnbachkhoahanoi/" data-tabs="timeline" data-width="340" data-height="230" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/cdnbachkhoahanoi/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cdnbachkhoahanoi/">Trường Cao đẳng nghề Bách Khoa Hà Nội - HACTECH</a></blockquote></div>
+                    </div>
+                   <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0" nonce="YTntoDbM"></script>
+               </div>
+               <div class="col l-4">
+                   <h3 class="heading">Bản đồ</h3>
+                   <div class="map-box">
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1107.373486429213!2d105.84650007497908!3d21.002833256623347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac742d3b83df%3A0x28772da31fb145b1!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIG5naOG7gSBCw6FjaCBLaG9hIEjDoCBO4buZaQ!5e0!3m2!1svi!2s!4v1624591699817!5m2!1svi!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+               </div>
+           </div>
+           </div>
+           <a href="" class="face-chat"></a>
+       </div>
+       <div class="copy-right">
+            <div id="group" class="show"><a href="#"></a></div>
+      <script>
+  //Get the button:
+  var btn = $('#group');
+  
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+  
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+  </script>
+           <div class="grid wide-max">
+               <p class="copy-right-line">BẢN QUYỀN THUỘC VỀ TRƯỜNG CAO ĐẲNG NGHỀ BÁCH KHOA HÀ NỘI</p>
+           </div>
+       </div>
+   </div>    
+</footer>
+</body>
+</html>

@@ -1,0 +1,142 @@
+.btn {
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+.btn:hover {
+    background: white;
+    color: var(--bg-main-color)
+}
+
+/* post */
+.post {
+
+}
+
+.post-img {
+
+}
+
+.post-content {
+    text-align: justify;
+}
+
+.post-content .post-heading {
+    margin-bottom: 1.4rem;
+
+    color: var(--color-cl1);
+    font-size: 1.6rem;
+}
+.post .post-content .post-heading:hover {
+    color: var(--bg-main-color);
+}
+
+.post-content .post-text {
+    color: var(--color-cl2);
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+}
+
+/* heading bar */
+.heading-bar {
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.3rem solid var(--bg-main-color);
+}
+
+.heading-bar .title {
+    position: relative;
+    padding: 1rem 5rem;
+    color: white;
+    background: var(--bg-main-color);
+
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.heading-bar .title:after {
+    position: absolute;
+    content: "";
+    top: 47.9%;
+    right: -4rem;
+    transform: translateY(-50%);
+    
+    display: block;
+    border-width: 2rem 2rem;
+    border-style: solid;
+    border-color: var( --bg-main-color) transparent transparent var(--bg-main-color);
+}
+
+.heading-bar .link {
+    padding: 1rem 0rem;
+    color: var(--bg-main-color);
+    font-size: 1.4rem;
+
+}
+
+/* short new */
+.short-new-list {
+    font-size: 1.6rem;
+}
+.short-new-list >li {
+    margin-bottom: 1rem;
+}
+
+.short-new {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--color-cl1);
+}
+
+.short-new:hover {
+    color: var(--bg-main-color);
+}
+
+.short-new-content {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.short-new-content::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: var(--bg-main-color);
+    border-radius: 50%;
+    top: 50%;
+    left:0rem;
+    transform: translateY(-50%);
+
+}
+/* light post */
+.light-post {
+display: flex;
+justify-content: flex-start;
+margin-bottom: 1rem;
+align-items: stretch;
+height: 3.8rem;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.light-post__time-box {
+    padding: 0rem 0.4rem;
+    color: white;
+    background: var(--bg-main-color);
+    text-align: center;
+    line-height: 3.8rem;
+    
+}
+.light-post__heading {
+    margin-left: 1.5rem;
+    color: var(--color-cl1);
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+.light-post__heading:hover {
+    color: var(--bg-main-color);
+}
